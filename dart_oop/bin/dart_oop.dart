@@ -1,3 +1,4 @@
+import 'package:dart_oop/book.dart';
 import 'package:dart_oop/dart_oop.dart' as dart_oop;
 import 'package:dart_oop/mahasiswa.dart';
 import 'package:dart_oop/mobil.dart';
@@ -32,4 +33,7 @@ void main(List<String> arguments) {
   // Mixin
   var orang = Orang("Fufufafa");
   orang.sapa();
+
+  var buku = Book("Rich Dad Poor Dad", "Robert Kiyosaki", 1997);
+  buku.bookInfo();
 }
